@@ -14,7 +14,8 @@ Training data comprises of different questions, categories and sub-categories.
 
 For eg : 
 
-|Category | Sub-category | Question                                         |
+|Category | Sub-category | Question                                           |
+| --------|:------------:|:--------------------------------------------------:|
 | DESC    | manner       | How did serfdom develop in and then leave Russia ? | 
 | ENTY    | cremat       | What films featured the character Popeye Doyle ?   |
 
