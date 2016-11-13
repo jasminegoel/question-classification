@@ -157,4 +157,11 @@ predictxg <- predict(xg1, te)
 (178+298+235+279+178)/1637
 # 0.7135003
 
+predictxg = gsub("0","ABBR",predictxg)
+predictxg = gsub("1","DESC",predictxg)
+predictxg = gsub("2","ENTY",predictxg)
+predictxg = gsub("3","HUM",predictxg)
+predictxg = gsub("4","LOC",predictxg)
+predictxg = gsub("5","NUM",predictxg)
+
 write.csv(predictxg, file = "xgboostPredictions.csv", row.names = FALSE)
